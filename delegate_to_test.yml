@@ -3,6 +3,9 @@
   gather_facts: false
 #  connection: local
   tasks:
-    - debug: msg="{{ip}}"
+    - debug: msg="{{xio.user}}"
+      delegate_to: localhost
+    
+    - debug: msg="{{xio.ip}}"
       delegate_to: localhost
         

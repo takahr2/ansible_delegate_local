@@ -1,1 +1,2 @@
 ansible-playbook delegate_to_test.yml -i inv.yml --extra-vars @extr_var.yml
+ansible-playbook delegate_to_test.yml -i inv.yml --extra-vars vplex=vplex2

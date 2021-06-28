@@ -1,12 +1,12 @@
 vplex1: 
-  hosts: xio1
+  hosts: vplex-xio1
   vars: 
     xio:
       ip: 192.168.1.10
       user: admin
       password: password
 vplex2:
-  hosts: xio2
+  hosts: vplex-xio1
   vars:
     xio:
       ip: 192.168.1.13

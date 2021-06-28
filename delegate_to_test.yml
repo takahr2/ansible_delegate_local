@@ -1,5 +1,5 @@
 ---
-- hosts: vplex2
+- hosts: "{{vplex}}"
   gather_facts: false
 #  connection: local
   tasks:

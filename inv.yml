@@ -1,0 +1,8 @@
+vplex1: 
+  hosts: xio1
+  vars: 
+    ip: 192.168.1.10 
+vplex2:
+  hosts: vplex2
+  vars:
+    ip: 192.168.1.13

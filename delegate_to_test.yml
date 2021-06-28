@@ -1,0 +1,8 @@
+---
+- hosts: vplex2
+  gather_facts: false
+#  connection: local
+  tasks:
+    - debug: msg="{{ip}}"
+      delegate_to: localhost
+        

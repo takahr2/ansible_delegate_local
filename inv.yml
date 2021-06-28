@@ -6,7 +6,7 @@ vplex1:
       user: admin
       password: password
 vplex2:
-  hosts: vplex-xio1
+  hosts: vplex-xio2
   vars:
     xio:
       ip: 192.168.1.13

@@ -8,4 +8,7 @@ vplex1:
 vplex2:
   hosts: xio2
   vars:
-    ip: 192.168.1.13
+    xio:
+      ip: 192.168.1.13
+      user: admin1
+      password: password2
